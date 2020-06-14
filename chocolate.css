@@ -1,0 +1,84 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+  text-align: center;
+}
+
+header {
+  min-height: 20vh;
+  width: 100vw;
+  background: #934915;
+}
+
+main {
+  height: 80vh;
+  margin: auto 0;
+  background: #e3e3e3;
+}
+
+.title {
+  padding: 2rem 2rem;
+}
+
+h1 {
+  color: #f6e1d2;
+}
+
+p {
+  margin: 0.5rem;
+  color: #f1d2bb;
+  font-size: large;
+}
+
+.container {
+  padding: 5rem auto;
+  position: relative;
+}
+
+.tablet {
+  position: absolute;
+  margin: 5rem;
+  padding: 1.1rem;
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 0.5rem 0.5rem;
+  background: #2a1501;
+  border-radius: 10px;
+}
+
+.piece {
+  background: #3f1f09;
+  height: 15vh;
+  width: 20vh;
+  box-shadow: #7e3f12 5%;
+  border-radius: 5px;
+}
+
+.square {
+  margin: 0.6rem auto;
+  background: #5f2f0d;
+  height: 12vh;
+  width: 17vh;
+  box-shadow: 2% 2% #2a1506;
+  border-radius: 5px;
+}
+
+.tablet2 {
+  position: absolute;
+  margin: 2rem 50rem;
+  padding: 1.1rem;
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  gap: 0.5rem 0.5rem;
+  background: #2a1501;
+  border-radius: 10px;
+}
